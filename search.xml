@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[安利!]]></title>
+    <url>%2F2017%2F11%2F03%2Fanli%2F</url>
+    <content type="text"><![CDATA[怎么给你儿子好朋友安利游戏呢？ 总归还是要写点代码的，其实这是很早期的代码特别Lowb，翻东西看到挺有意思的就拿出来好了。 普通安利比如找一堆资料，直接拍脸上，给他看这游戏各种牛逼的操作，牛逼的画面，牛逼的游戏性，各种截图，文字描述，安利到他必须去看。或者旁敲侧击的说最近又一款巨好玩的游戏… 对了你不是喜欢玩xxx么，我看到一款… 当上述说的都没有用的时候！那你只能自！己！做！个！（滑稽） 游戏巨大的挑战！安利什么呢？当然是巨牛逼的DOTA！ 准备首先，妮要收集一些素材吧，比如一些看起来特别亲切的图片，给他特别友好的第一印象，最好让他看到就说，卧槽，太牛逼了。 比如上面这张图片就很好的表达了效果，当然说完牛逼之后，他会不会打你一顿跟你握手？表达谢意。就不知道了。 代码代码不是重要的，最主要的时通过一些友好的提示，词语让他感受到你的诚意！比如下面这几种。 非常简单！只用一些对话框，就可以搞定，（当然我这个写的就非常lowb了） 123456789101112131415161718192021222324252627282930313233343536373839404142434445function dotarun() &#123; var textcon = document.getElementById('textcon'); var textw = textcon.innerHTML; //alert(textcon.innerHTML); var choosehero = prompt("选择妮的英雄！","火枪手！"); if (choosehero=="火枪手！") &#123; alert("儿子眼光不错啊！"); //document.write("儿子眼光不错啊！"); textcon.innerHTML=textcon.innerHTML+"&lt;br&gt;"; textcon.innerHTML=textcon.innerHTML+"儿子眼光不错啊！"; textcon.innerHTML=textcon.innerHTML+"&lt;br&gt;"; textcon.innerHTML=textcon.innerHTML+"儿子选择了火枪手！"; textcon.innerHTML=textcon.innerHTML+"&lt;br&gt;"; //document.write("&lt;br&gt;"); herotext(); choose(); &#125;else&#123; alert("除了火枪还想玩别的英雄？！吃翔去吧！"); textcon.innerHTML=textcon.innerHTML+"除了火枪还想玩别的英雄？！吃翔去吧！"; textcon.innerHTML=textcon.innerHTML+"&lt;br&gt;"; alert("儿子选择了火枪手！"); textcon.innerHTML=textcon.innerHTML+"儿子选择了火枪手！"; textcon.innerHTML=textcon.innerHTML+"&lt;br&gt;"; herotext(); choose(); &#125; alert("未完待续..."); textcon.innerHTML=textcon.innerHTML+"&lt;br&gt;"; textcon.innerHTML=textcon.innerHTML+"未完待续...";&#125;function choose()&#123; alert("来帮爹随便挑个英雄吧！"); textcon.innerHTML=textcon.innerHTML+"来帮爹随便挑个英雄吧！"; var choosehero2 = confirm("是否为爹选择屠夫？"); if (choosehero2==true) &#123; alert("可以的儿子，很懂爹"); &#125;else&#123; alert("小赤佬的，造反啦！爹就要玩屠夫！"); &#125; textcon.innerHTML=textcon.innerHTML+"&lt;br&gt;"; alert("儿子帮爹选择了屠夫！"); textcon.innerHTML=textcon.innerHTML+"儿子帮爹选择了屠夫！"; herotext2();&#125; 来解释一下，这段代码主要体现出了，给他选择一个非常弱鸡强力的英雄，不要也不行！就非常友好，肯定会让他非常兴奋！然后再给自己选择一个特别强力让他来吊打你，再通过一些友好的提示框仿佛在跟他沟通一样，让他沉浸进去，就特别高级了。 页面这里就不多说了，放几张图，满满的诚意扑面而来？! 结果不用说，自然是成功…….了？ 结束其实是一朋友提醒到我了，然后想试试代码片段怎么展示的。就胡逼搞了这么一篇（滑稽） 最后还是真-安利一个网站，听听电台特别好。什么类型节目都有，当然主要是游戏，但不止于游戏吧。像“牛逼疯了，巨傻逼”，这种生动的词汇就是从里面学来的（一本正经）。 机核网：https://www.g-cores.com/]]></content>
+      <categories>
+        <category>代码</category>
+      </categories>
+      <tags>
+        <tag>dota2</tag>
+        <tag>代码</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Dota2!]]></title>
     <url>%2F2017%2F11%2F01%2Fdota2%2F</url>
     <content type="text"><![CDATA[巨TM牛逼的游戏！更新了！ 7.07 - 血战之命 牛逼疯了！但是我想到了WAR3 http://www.dota2.com/duelingfates/ 回忆 (声音巨大，小心点) War32006南京十一中初三（3）班，有这样牛逼的几个人，组了一只牛逼疯了的战队FA.IGE!War3玩的贼6，中午放学疯狂奔回家，锁定游戏风云，每次听见BBC，老杨说出超熟悉的台词：“游我所爱，任我风云”。热血沸腾，看Sky,看Infi,看Moon,看Grubby，看韩国5鬼王！看中国电竞！现在10年了，这几个人….. 现在还在一起！特别开心（气不气！） 初中毕业，一丝余热带到了高职，还在继续再浩方上玩着，但是总提不起劲了，慢慢的我一个人打dota了，war3就不玩了，偶尔还看看比赛，特别是WCG，记得最后一次看WCG是12年，和FA.IGE.Moon一起看的,比赛是Sky和Moon在争夺3,4名，最后sky赢了，Moon呆呆的最在电脑前看着屏幕仿佛失去了什么，这时BGM居然想起来张雨生的我期待，听到一句句Saygoodbye，眼前突然模糊了，看着Sky走到Moon的选手室旁敲了敲玻璃，Moon出来了，和Sky一起站在舞台上，Sky说很可惜这次兽王Grubby不在，Moon还是一样的腼腆，说打的很开心。Saygoodbye也是和war3的一个告别吧。 附：最气的是WCG果然不争气，三星这个逼搞黄了就不搞了，疯狂想赚钱，什么某鹅厂的手游都来了，这是电竞么，大哥了。果然办了两年WCG没了，直接换了个名字 WCA？ 那是什么？ DotaDota挺早开始玩的，疯狂打电脑，打了一年，以至于那时90+个英雄所有技能全都了解的透彻疯了，然后和朋友打11，给血虐！后来慢慢的在网上认识人，玩Dota的朋友也多了,还组了个公会叫*末日审判（恩，当时觉得巨牛逼，现在觉得中二疯了）。公会里最年轻的也才上大一吧，年纪最大的儿子都打酱油了。11年的时候Dota2出来了，想着一起转Dota2不是美滋滋，但总有些波折，老了，玩不动了； 没时间学新东西了； 以后玩的时间很少了； 才知道现实才是大哥啊。 Dota2玩的人少了，游戏自然就变成信仰了，每年看看TI，从TI2开始粉了IG，粉到了现在，人员变动无数，以至于现在的IG没有一个人是TI2的了，但我还是喜欢，不知道为什么…懒得换了估计。（也是这时候知道了steam入了G胖的圈套！）TI6更新7.0的时候那宣传片波的激动坏了，眼睛又模糊了…现在7.07了，不多说，回家找几个人玩TM的。]]></content>
